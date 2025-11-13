@@ -1,5 +1,5 @@
 MART145
-<!DOCTYPE html>
+
 <html lang="en">
 
   <head>
@@ -32,9 +32,7 @@ MART145
     </p>
 
     <img 
-      src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Halo_infinite_multiplayer_screenshot.png" 
-      alt="Gameplay screenshot from Halo Infinite" 
-      width="400">
+     
 
     <p>
       You can check out the latest news and updates about these games on
