@@ -1,168 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Hobbies</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-<header>
-    <h1>Welcome to My Hobbies Website</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gaming.html">Gaming</a>
-        <a href="basketball.html">Basketball</a>
-        <a href="music.html">Music</a>
-        <a href="gallery.html">Gallery</a>
-    </nav>
-</header>
 
-<div class="container">
-    <h2>Explore My Interests</h2>
-    <p>This website highlights three of my favorite interests: gaming, basketball, and music.</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">My Hobbies</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="gaming.html">Gaming</a></li>
+        <li class="nav-item"><a class="nav-link" href="basketball.html">Basketball</a></li>
+        <li class="nav-item"><a class="nav-link" href="music.html">Music</a></li>
+        <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <ul>
-        <li>Gaming — Call of Duty, Battlefield, Halo</li>
-        <li>Basketball — favorite players, competition, NBA</li>
-        <li>Music — J. Cole, Logic, Jack Johnson, Baby Keem</li>
-        <li>Gallery — pictures of the artists and sports moments</li>
-    </ul>
+<div class="container py-5">
+  <h1>Gallery</h1>
+  <p>Images of artists and sports moments go here.</p>
 </div>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Gaming</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-<header>
-    <h1>Gaming</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gaming.html">Gaming</a>
-        <a href="basketball.html">Basketball</a>
-        <a href="music.html">Music</a>
-        <a href="gallery.html">Gallery</a>
-    </nav>
-</header>
-
-<div class="container">
-    <h2>Favorite Games</h2>
-    <ul>
-        <li>Call of Duty</li>
-        <li>Battlefield</li>
-        <li>Halo</li>
-    </ul>
-
-    <p>I enjoy FPS games because they are exciting, strategic, and fun to play with friends.</p>
-</div>
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Basketball</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-<header>
-    <h1>Basketball</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gaming.html">Gaming</a>
-        <a href="basketball.html">Basketball</a>
-        <a href="music.html">Music</a>
-        <a href="gallery.html">Gallery</a>
-    </nav>
-</header>
-
-<div class="container">
-    <h2>Why I Love Basketball</h2>
-    <p>Basketball is fast, competitive, and exciting. I enjoy watching NBA games and playing with friends.</p>
-
-    <h2>Favorite Player</h2>
-    <p>One of my favorite players is Kevin Durant.</p>
-
-    <img src="https://res.cloudinary.com/usopc-prod/image/upload/ar_0.8,c_auto,g_auto,w_1305/q_auto/f_auto/v1/TeamUSA%20Assets/Athlete%20Profiles/Kevin%20Durant%20918547/Durant_k_bio_918547"
-         alt="Kevin Durant looking forward confidently">
-</div>
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Music</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-<header>
-    <h1>My Favorite Music Artists</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gaming.html">Gaming</a>
-        <a href="basketball.html">Basketball</a>
-        <a href="music.html">Music</a>
-        <a href="gallery.html">Gallery</a>
-    </nav>
-</header>
-
-<div class="container">
-    <h2>Artists I Listen To</h2>
-    <ul>
-        <li>J. Cole</li>
-        <li>Logic</li>
-        <li>Baby Keem</li>
-        <li>Jack Johnson</li>
-    </ul>
-
-    <p>I enjoy a mix of lyrical hip-hop, rap, and chill acoustic music.</p>
-</div>
-
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Gallery</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-<header>
-    <h1>Gallery</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gaming.html">Gaming</a>
-        <a href="basketball.html">Basketball</a>
-        <a href="music.html">Music</a>
-        <a href="gallery.html">Gallery</a>
-    </nav>
-</header>
-
-<div class="container">
-    <h2>My Uploaded Images</h2>
-
-    <h3>J. Cole</h3>
-    <img src="0x1900-000000-80-0-0.jpg" alt="J. Cole sitting on a rooftop">
-
-    <h3>Logic</h3>
-    <img src="wiz-khalifa-logic-vinyl-verse-summer-tour-2022-atlanta-ga.jpg" 
-         alt="Logic performing live on stage">
-</div>
-
-</body>
-</html>
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
